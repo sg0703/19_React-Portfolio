@@ -6,12 +6,14 @@ const About = () => {
         <div className="col-md-3 m-0 px-3">
             <img src="images/vert_headshot.png" width="100%" alt="Me leaning against a wall" />
         </div>
-        <div className="col-md-9 py-3">
-      
-        <p>I am a full stack web developer currently completing a certificate program in Full Stack Web Development at University of North Carolina. I will graduate in July 2021. Lately I've been enjoying building efficient back-end code. Check out my projects below!</p>
-        <p>
-            I started coding around age eleven, when I taught myself HTML, CSS, PHP, and MySQL. After many years in public service, I am returning to my dream of being a professional web developer.</p></div>
-    </div>
+        <div className="col-md-9 px-5">
+            <p>Full Stack MERN Developer currently completing a certificate program in Full Stack Web Development at University of North Carolina.</p>
+
+            <p>Self-taught web developer who started coding around age eleven. Taught myself HTML, CSS, JavaScript, PHP, MySQL and other web development technologies.</p>
+
+            <p>Returning to my dream of being a professional web developer after many years in public service. Possess a strong work ethic, leadership skills, and a dedication to learning.</p>
+        </div>
+        </div>
     );
 }
 

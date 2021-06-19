@@ -11,8 +11,8 @@ const Project = ({project}) => {
             <div className="card-body">
                 <h5 className="card-title">{project.name}</h5>
                 <p className="card-text">{project.description}</p>
-                <a href={project.repo} className="btn btn-secondary" target="_blank" rel="noreferrer">Repo</a>
-                <a href={project.deployed} className="btn btn-secondary" target="_blank" rel="noreferrer">Deployed</a>
+                <a href={project.repo} className="btn btn-secondary m-1" target="_blank" rel="noreferrer">Repo</a>
+                <a href={project.deployed} className="btn btn-secondary m-1" target="_blank" rel="noreferrer">Deployed</a>
             </div>
             </div>
         );
