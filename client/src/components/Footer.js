@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-3 ml-auto text-center mb-lg-0">
                     <a href="https://samgates.io/">
-                <i class="bi bi-keyboard-fill fa-3x mb-3 text-muted size3rem"></i>
+                <i className="bi bi-keyboard-fill fa-3x mb-3 text-muted size3rem"></i>
                 </a>
                 </div>
                 <div className="col-lg-3 mr-auto text-center">
