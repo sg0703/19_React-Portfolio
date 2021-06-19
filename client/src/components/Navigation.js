@@ -21,7 +21,7 @@ const Navigation = () => {
     }
 
     return (
-        <div>
+        <div className="page_container">
             <nav className="navbar navbar-dark bg-dark p-1 px-2 d-flex justify-content-center">
             <a 
                 className={page === 'about' ? 'highlight navbar-brand' : 'navbar-brand'} 
