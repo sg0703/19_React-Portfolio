@@ -28,17 +28,17 @@ const projects = [
 
 // helper function to render project components
 const renderProjects = () => {
-    return projects.map(project => {
-        return <Project project={project} />;
+    return projects.map((project, i) => {
+        return <Project project={project} key={i+Date.now()} />;
     });
 }
 
 // display portfolio page
 const Portfolio = () => {
     return (
-        <div class="row w-100 bg-light p-0 m-0" id="work">
-            <div class="col-md-12 py-2" id="content-text">
-                <div class="row">
+        <div className="row w-100 bg-light p-0 m-0" id="work">
+            <div className="col-md-12 py-2" id="content-text">
+                <div className="row">
                 {renderProjects()}
                 </div>
             </div>
