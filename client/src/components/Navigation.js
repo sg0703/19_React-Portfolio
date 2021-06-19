@@ -16,7 +16,7 @@ const Navigation = () => {
             case 'contact':
                 return <Contact />;
             default: 
-                return null;
+                return <About />;
         }
     }
 
