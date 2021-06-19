@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,5 +38,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://sg0703.github.io/"
+  "homepage": "https://sg0703.github.io/19_React-Portfolio/"
 }

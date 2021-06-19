@@ -42,7 +42,7 @@ const Navigation = () => {
             >
             Contact
             </a>  
-            <a className="navbar-brand" href="Sam_Gates_Resume.pdf"  target="_blank">Resume</a> 
+            <a className="navbar-brand" href="https://samgates.io/assets/Sam_Gates_Resume.pdf"  target="_blank" rel="noreferrer">Resume</a> 
             </nav>
         {showPage()}
         </div>
